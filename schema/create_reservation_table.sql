@@ -10,5 +10,4 @@ CREATE TABLE reservation (
 )
 
 --データはa5m2のダミーデータ機能で挿入
---reservationのみデータがある場合を表示したい
 

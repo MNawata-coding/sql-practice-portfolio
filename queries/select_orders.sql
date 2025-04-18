@@ -1,4 +1,4 @@
---サブクエリ演習
+--演習1
 --取得
 SELECT name, purchase_date FROM orders ORDER BY purchase_date DESC;
 
