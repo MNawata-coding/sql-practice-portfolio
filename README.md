@@ -10,6 +10,7 @@ MySQLの学習過程で作成した「データベース」「テーブル定義
 👉 [SQL学習入門 | INSERT/SELECT/DELETE/UPDATE　基本構文を学習してみた](https://qiita.com/suica1010/items/f28774e16e7f589029ef)
 👉 [SQL学習入門 | WHERE/ORDER BY/GROUP BY/HAVING　基本構文を学習してみた](https://qiita.com/suica1010/items/17ea0f22e1b6750984f1)
 👉 [SQL学習入門 ｜ INNER JOINとOUTER JOINの違いを実例で解説](https://qiita.com/suica1010/items/ce76be2580faec9689d4)
+👉 [SQL学習入門｜サブクエリを演習で習得](https://qiita.com/suica1010/items/eeb0831ed563816d1f83)
 
 ## 進捗
 | 日付 | 学習内容 | 対応ファイル | 備考 | 進捗 |
@@ -17,7 +18,7 @@ MySQLの学習過程で作成した「データベース」「テーブル定義
 | 04/15 | INSERT/SELECT/UPDATE/DELETEの基本構文 | insert_users.sql / select_users.sql | Qiita記事あり（リンク下記） | 完了 |
 | 04/16 | WHERE / ORDER BY / GROUP BY / HAVING | select_users.sql / create_items_table.sql | 集計・条件付き取得 | 完了 |
 | 04/17 | JOIN + 集計関数予定 | 完了 |
-| 04/17 | サブクエリ | - | 次記事予定 | 未着手 |
+| 04/18 | サブクエリ | 完了 |
 
 ## 仕様ツール
 - A5:SQL Mk-2
@@ -36,6 +37,7 @@ MySQLの学習過程で作成した「データベース」「テーブル定義
 │   ├── insert_orders.sql                   # ordersテーブルへのデータ挿入
 │   ├── select_users.sql                    # SELECT〜WHEREまでの基本クエリ
 │   ├── select_items.sql                    # GROUP BY / HAVINGの演習クエリ
+│   ├── select_orders.sql                   # サブクエリ演習
 │   ├── select_reservation.sql              # reservationテーブル参照用クエリ
 │   ├── update_users.sql                    # UPDATE構文練習
 │   ├── delete_users.sql                    # DELETE構文練習（users）
@@ -46,5 +48,4 @@ MySQLの学習過程で作成した「データベース」「テーブル定義
 
 ## 🧠 今後の拡張予定
 
-- サブクエリ
 - パフォーマンスチューニング用のEXPLAINなど
